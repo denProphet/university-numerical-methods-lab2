@@ -1,4 +1,4 @@
-package matrix;
+package algorithm;
 
 import exceptions.IllegalMatrixConvergenceException;
 import exceptions.NullDeterminantValueException;
@@ -6,11 +6,11 @@ import exceptions.NullDeterminantValueException;
 /**
  * Simple Iteration Method Algorithm solver
  * <p>
- * Required specific matrix initializer (4*5 class implementation)
- * Required specific initial values data structure,
+ * Requires specific matrix initializer (4*5 class implementation)
+ * Requires specific initial values data structure,
  * initial values array size has to be equals 4
  * <p>
- * Required epsilon (accuracy) double value
+ * Requires epsilon (accuracy) double value
  */
 public class SimpleIterationAlgorithmSolver {
 
@@ -118,7 +118,7 @@ public class SimpleIterationAlgorithmSolver {
         double[] initialValuesIteratedTemp = new double[4];
         System.arraycopy(initialValues, 0, initialValuesIteratedTemp, 0, initialValues.length);
 
-        // solve each i-th equation with respect to Xi
+        // solve each i-th equation
         while (true) {
 
             initialValuesIteratedTemp[0] = ((coefficientsMatrix[0][4] -

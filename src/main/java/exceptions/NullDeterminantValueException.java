@@ -1,3 +1,5 @@
-public class NullDeterminantValue extends Exception{
+package exceptions;
+
+public class NullDeterminantValueException extends Exception{
 
 }

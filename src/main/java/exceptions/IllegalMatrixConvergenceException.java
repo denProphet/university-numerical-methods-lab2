@@ -1,2 +1,4 @@
-package exceptions;public class IllegalMatrixConvergenceException {
+package exceptions;
+
+public class IllegalMatrixConvergenceException extends Exception{
 }

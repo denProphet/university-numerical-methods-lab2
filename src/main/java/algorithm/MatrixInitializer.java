@@ -1,10 +1,9 @@
-package matrix;
+package algorithm;
 
 import exceptions.IllegalDataStructureException;
 
-
 /**
- * Create specific matrix from coefficients
+ * Creates specific matrix from coefficients
  * */
 public interface MatrixInitializer {
     public double[][] getMatrix() throws IllegalDataStructureException;

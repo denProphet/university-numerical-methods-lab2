@@ -1,16 +1,16 @@
-package matrix;
+package algorithm;
 
 import exceptions.IllegalDataStructureException;
 
 import java.util.List;
 
 /**
- * Create specific matrix from coefficients
- * Matrix has to 4*5
+ * Creates specific matrix from coefficients
+ * Matrix has to be 4*5 structure
  * <p>
  * Constructor has 4 coefficients lists (1-4 matrix lines)
  * Required structure:
- * Matrix coefficient lines size has to be equals 5
+ * Matrix coefficient lines size have to be equals 5
  */
 public class MatrixInitializerFourByFive implements MatrixInitializer {
 
